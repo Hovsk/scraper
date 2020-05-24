@@ -1,0 +1,19 @@
+{
+    "name": "hovhannes/scraperr",
+    "require": {
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.1",
+        "ext-dom": "20031129"
+    },
+    "authors": [
+        {
+            "name": "Hovhannes",
+            "email": "hovhannes.mark@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    }
+}
